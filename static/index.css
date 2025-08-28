@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(240,236,227,255);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 1;
+}
+
+#Photography{
+  padding-right: 50px;
+}
+ul img{
+  padding-left: 20px;
+  width: 25%;
+}
+nav{
+  width:100%;
+}
+li{
+  font-size: large;
+}
+header ul {
+  height: 125px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  box-shadow: 0 5px 20px gray;
+}
+
+header ul li:hover{
+  text-decoration: underline;
+}
+
+main{
+  margin-top: 130px;
+}
+#image img{
+  width:100%;
+  align-self: center;
+  height:400px;
+  object-fit:cover;
+
+}
+#profile{
+  height:500px;
+  display: flex;
+  flex-direction: row;
+}
+#my-info{
+  text-align: center;
+  flex:1;
+}
+
+.info{
+  height:30px
+}
+
+#me{
+  border-radius: 100%;
+  width:50%;
+  padding: 20px;
+}
+
+#contact-icons{
+  display:flex;
+  flex-direction: row;
+  height:50px;
+  justify-content: space-between;
+}
+
+#contact-icons div{
+  width:50px;
+  height:50px;
+}
+
+#email{
+  margin-left: 30px;
+}
+
+#linkedin{
+  margin-right: 30px;
+}
+
+#email img{
+  object-fit: cover;
+  width: 50px;
+}
+
+#instagram img{
+  object-fit: fill;
+  width: 50px;
+}
+
+#snapchat img{
+  object-fit: cover;
+  width: 50px;
+}
+
+#linkedin img{
+  object-fit: cover;
+  width: 50px;
+}
+
+#about-me{
+  background-color: blanchedalmond;
+  flex:3;
+}
+#divider{
+  padding: 20px 0px 50px 0px;
+  text-align: center;
+}
+#project-overview{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project-border{
+  border-style: solid;
+  width: 400px;
+  height: 400px;
+}
+.project-image{
+  border-style: solid;
+  height:80%;
+}
+.project-caption{
+  border-style: solid;
+  height:19%;
+  }
+#project1{
+  margin-left: 80px;
+}
+#project3{
+  margin-right: 80px;
+}
+footer{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
