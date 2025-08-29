@@ -3,74 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel = "stylesheet" href="index.css">
+  <title>CV</title>
+  <link rel = "stylesheet" href = "header.css">
+  <link rel = "stylesheet" href = "cv.css">
 </head>
 <body>
   <%- include("header.ejs")%>
 
   <main>
-    <div id = "image">
-        <img src="background.jpg">
+    <div>
+      <iframe src = "BavneetCV2025.pdf"></iframe>
     </div>
-    <div id="profile">
-      <div id="my-info">
-        <img src="Me.png" id="me">
-        <div class="info">Name: Bavneet Singh</div>
-        <div class="info">Role: Second-Year CS Student</div>
-        <div class="info">University: University of Surrey</div>
-        <div class="info">Degree: Computer Science BSc</div>
-        <div class="info">Location: London</div>
-        <div class="info">Email: <a href="mailto:mr.bavneet.singh@gmail.com">mr.bavneet.singh@gmail.com</a></div>
-        <div id="contact-icons">
-          <div id="email">
-            <img src="letter.png">
-          </div>
-          <div id="instagram">
-            <img src="insta.png">
-          </div>
-          <div id="snapchat">
-            <img src="snap.png">
-          </div>
-          <div id="linkedin">
-            <img src="linkedin.png">
-          </div>
-        </div>
-      </div>
-      <div id="about-me">
-        CV
-      </div>
-    </div>
-    <div id="divider">
-      Projects . Projects . Projects . Projects . Projects . Projects . Projects . Projects. Projects . Projects . Projects. Projects . Projects . Projects
-    </div>
-    <div id="project-overview">
-      <div id = "project1" class = "project-border">
-        <div class = "project-image">
-          project1 circular picture hover it will come into colour and without it will stay faded
-        </div>
-        <div class = "project-caption">
-          This project will be a database one
-        </div>
-      </div>
-      <div id="project2" class = "project-border">
-        <div class = "project-image">
-          project2 circular picture hover it will come into colour and without it will stay faded
-        </div>
-        <div class="project-caption">
-          This project will be an api use one
-        </div>
-      </div>
-      <div id="project3" class = "project-border">
-        <div class="project-image">
-          project3 circular picture hover it will come into colour and without it will stay faded
-        </div>
-        <div class = "project-caption">
-          This project will be a game mabye idk or maybe trying to use A.I.
-        </div>
-      </div>
-    </div>
-    <div></div>
   </main>
 
   <%- include("footer.ejs") %>

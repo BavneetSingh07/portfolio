@@ -1,0 +1,20 @@
+main{
+  margin-top: 140px;
+}
+
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+iframe{
+  width: 50%;
+  height: 75vh;
+}
+
+footer{
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
