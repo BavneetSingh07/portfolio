@@ -20,15 +20,8 @@ header{
 #Photography{
   padding-right: 50px;
 }
-ul img{
-  padding-left: 20px;
-  width: 25%;
-}
 nav{
   width:100%;
-}
-li{
-  font-size: large;
 }
 header ul {
   height: 125px;
@@ -57,6 +50,20 @@ header ul a:hover{
 
 header ul a:visited{
   color: black;
+}
+
+header ul li {
+  font-size: large;
+}
+
+#logo-link{
+  padding-left: 20px;
+  width:280px;
+}
+
+#logo{
+  object-fit: contain;
+  width:100%;
 }
 
 main{
@@ -166,4 +173,3 @@ footer{
   margin-left: 20px;
   margin-bottom: 10px;
 }
-
