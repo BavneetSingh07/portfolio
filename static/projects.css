@@ -1,0 +1,40 @@
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 140px 30px 0px 30px;
+  gap: 60px;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.project-block{
+  border-style: solid;
+}
+
+.project-image{
+  border-style: solid;
+  height: 28.5%;
+}
+
+.project-image img{
+  object-fit: cover;
+  width: 100%;
+  height:100%;
+}
+
+.project-title{
+  border-style: solid;
+  height:5%;
+  text-align: center;
+}
+
+.project-description{
+  border-style: solid;
+  height: 65%;
+}
+
+footer{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
